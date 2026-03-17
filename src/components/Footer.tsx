@@ -7,9 +7,9 @@ const Footer = () => (
         <Code2 className="h-4 w-4 text-primary" />
         <span>© 2024 KOE. All rights reserved.</span>
       </div>
-      <p className="font-mono text-xs text-muted-foreground">
+      {/* <p className="font-mono text-xs text-muted-foreground">
         Built with React + Vite + Tailwind
-      </p>
+      </p> */}
     </div>
   </footer>
 );
