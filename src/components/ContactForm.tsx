@@ -136,7 +136,7 @@ const ContactForm = () => {
           <div className="mt-12 flex items-center justify-center gap-4">
             {[
               { icon: Github, href: "https://github.com/softelisabeth-a11y", label: "GitHub" },
-              { icon: Linkedin, href: "www.linkedin.com/in/eric-kanhonou-8aa91012a", label: "LinkedIn" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/eric-kanhonou-8aa91012a", label: "LinkedIn" },
               // { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
             ].map(({ icon: Icon, href, label }) => (
               <a
