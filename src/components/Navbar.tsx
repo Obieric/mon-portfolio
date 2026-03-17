@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Logo remplacé par photo */}
         <Link to="/" className="flex items-center gap-3 text-xl font-bold">
           <img
-            src="/profile.jpeg"
+            src={`${import.meta.env.BASE_URL}profile.jpeg`}
             alt="profile"
             className="h-20 w-15 rounded-full object-cover border"
           />
